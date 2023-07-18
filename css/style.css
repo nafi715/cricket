@@ -1,0 +1,383 @@
+.waviy {
+    position: relative;
+    left: 40%;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #09d3d3;
+    /* text-transform: uppercase; */
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+  .batsman{
+    display: none;
+  }
+.vs {
+    position: relative;
+  }
+  .vs .s1 {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    color: #f90011;
+    /* text-transform: uppercase; */
+    animation: my 2s infinite alternate;
+    animation-delay: calc(2s * var(--i))
+  }
+  @keyframes my {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+.team{
+    display: flex;
+}
+body{
+    background-image: url('/images/img1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+  
+    display: inline-block;
+    font-weight: 900;
+    font-size: 70px;
+    position: relative;
+    left: 40%;
+    animation: myAni 4s alternate infinite;
+}
+@keyframes myAni{
+    0%{
+        color: red;
+        
+        
+    }30%{
+        
+        color: white;
+        
+    }50%{
+        color: blue;
+    }70%{
+        color: cyan;
+    }100%{
+        color: pink;
+    }
+}
+
+.teamName1{
+    display: none;
+}
+.submit1{
+    display: none;
+}
+
+
+
+.box{
+    display: flex;
+}
+.box .left{
+    width: 60%;
+    height: 200px;
+    /* background-color: rgb(2, 112, 155); */
+}
+.box .right{
+    width: 40%;
+    background-color: rgb(0, 255, 76);
+    height: 200px;
+}
+.err1{
+    display: block;
+}
+
+.total{
+    display: inline-block;
+}
+.toss{
+    display: none;
+    
+}
+.tossWin{
+    display: none;
+
+}
+.bat{
+    display: none;
+}
+.bwl{
+    display: none;
+}
+.or{
+    display: none;
+}
+
+/* total run and over */
+.tro{
+    display: none;
+}
+.tro .left{
+    width: 70%;
+}
+.tro .right{
+    width: 30%;
+}
+
+.tro .left .runPlus{
+    width: 50px;
+    height: 30px;
+    background-color: green;
+}
+.tro .left .runMinus{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 38, 0);
+}
+
+.tro .right .overPlus{
+    width: 50px;
+    height: 30px;
+    background-color: green;
+}
+.tro .right .overMinus{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 39, 1);
+}
+.tro .left .three{
+    width: 50px;
+    height: 30px;
+    background-color: green;
+}
+.tro .left .four{
+    width: 50px;
+    height: 30px;
+    background-color: green;
+}
+.tro .left .six{
+    width: 50px;
+    height: 30px;
+    background-color: green;
+}
+.tro .left .wicket{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(144, 0, 0);
+}
+.tro .left h1 p{
+    display: inline;
+    font-size: 15px;
+}
+.totalOver{
+    display: none;
+}
+.overMinus{
+    display: none;
+}
+.overPlus{
+    display: none;
+}
+/* total run and over */
+
+/* player portion #Start */
+.player1{
+    display: none;
+    margin-bottom: 10px;
+}
+.player2{
+    display: none;
+    margin-bottom: 10px;
+}
+.player3{
+    display: none;
+    margin-bottom: 10px;
+}
+.player4{
+    display: none;
+    margin-bottom: 10px;
+}
+.player5{
+    display: none;
+    margin-bottom: 10px;
+}
+.player6{
+    display: none;
+    margin-bottom: 10px;
+}
+.player7{
+    display: none;
+    margin-bottom: 10px;
+}
+.player8{
+    display: none;
+    margin-bottom: 10px;
+}
+.player9{
+    display: none;
+    margin-bottom: 10px;
+}
+.player10{
+    display: none;
+    margin-bottom: 10px;
+}
+.player11{
+    display: none;
+    margin-bottom: 10px;
+}
+/* player portion #End */
+
+/* b1 portion #Start */
+.b1{
+    display: inline-block;
+}
+.b2{
+    display: none;
+}
+.b3{
+    display: none;
+}
+.b4{
+    display: none;
+}
+.b5{
+    display: none;
+}
+.b6{
+    display: none;
+}
+.b7{
+    display: none;
+}
+
+.b8{
+    display: none;
+}
+.b9{
+    display: none;
+}
+.b10{
+    display: none;
+}
+.b11{
+    display: none;
+}
+
+/* b1 portion #End */
+
+/* btn portion #Start */
+.btn1{
+    display: inline-block;
+}
+.btn11{
+    display: none;
+    
+}
+.btn10{
+    display: none;
+}
+.btn9{
+    display: none;
+}
+.btn8{
+    display: none;
+}
+.btn7{
+    display: none;
+}
+.btn6{
+    display: none;
+}
+.btn5{
+    display: none;
+}
+.btn4{
+    display: none;
+}
+.btn3{
+    display: none;
+}
+.btn2{
+    display: none;
+}
+
+/* btn portion #End */
+
+/* p ball #start */
+.p1Ball{
+    font-size: 12px;
+    color:red;
+}
+
+
+
+
+
+
+
+.p2Ball{
+    font-size: 12px;
+    color:red;
+}
+.p3Ball{
+    font-size: 12px;
+    color:red;
+}
+.p4Ball{
+    font-size: 12px;
+    color:red;
+}
+.p5Ball{
+    font-size: 12px;
+    color:red;
+}
+.p6Ball{
+    font-size: 12px;
+    color:red;
+}
+.p7Ball{
+    font-size: 12px;
+    color:red;
+}
+.p8Ball{
+    font-size: 12px;
+    color:red;
+}
+.p9Ball{
+    font-size: 12px;
+    color:red;
+}
+.p10Ball{
+    font-size: 12px;
+    color:red;
+}
+.p11Ball{
+    font-size: 12px;
+    color:red;
+}
+/* p ball #End */
+
+.p1{
+    color: rgb(0, 23, 99);
+}
+
+.font ul{
+    display: flex;
+    column-gap: 32px;
+}
+
+.font ul li{
+    list-style-type: none;
+}
+
+.font ul li .bsq{
+    width: 5px;
+    height: 100%;
+    background-color: red;
+}

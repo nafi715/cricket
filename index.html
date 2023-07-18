@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="waviy">
+        <span style="--i:1">S</span>
+        <span style="--i:2">c</span>
+        <span style="--i:3">o</span>
+        <span style="--i:4">r</span>
+        <span style="--i:5">e</span>
+        <span style="--i:6">C</span>
+        <span style="--i:7">a</span>
+        <span style="--i:8">r</span>
+        <span style="--i:8">d</span>
+       </div>
+    <div class="team">
+        <h2 class="team1">Team1</h2>  
+        <p class="vs">
+            <span class="s1" style="--i:1">V</span>
+            <span class="s1" style="--i:2">S</span>
+            </p> 
+            <h2 class="team2">Team2</h2>
+    </div>
+    <h3 class="err1"></h3>
+    <input type="text" class="teamName" placeholder="Enter your Team name."> <button class="submit">Submit</button>
+    <input type="text" class="teamName1" placeholder="Enter oponent Team name."> <button class="submit1">Submit</button>
+    <input type="text" class="toss" placeholder="which team won the toss?"> <button class="tossWin">Toss</button>
+    <button class="bat">Bat</button> <span class="or">Or</span> <button class="bwl">Bowl</button>
+    <h3 class="aToss"></h3>
+    <!-- total over and run -->
+    <div class="tro">
+        <div class="left">
+            <h1 class="total">Total Run: (<span class="run">0 </span>/ <span class="wicket1">0</span>)</h1> <button class="runPlus">+</button> <button class="runMinus">-</button> <button class="three">3</button> <button class="four">4</button> <button class="six">6</button> <button class="wicket">Wicket</button>
+            <h1>Extra:0 <p>(LB: <span class="lb">0</span> B: <span class="b">0</span> Wide: <span class="wide">0</span> NB: <span class="nb">0</span> )</p></h1>
+        </div>
+        <div class="right">
+            <input type="text" class="ol" placeholder="Over Limit"> <button class="overLimit">Sumbit</button>
+            <h1 class="totalOver">Over: <span class="over">0</span></h1> <button class="overPlus">+</button> <button class="overMinus">-</button>
+
+        </div>
+    </div>
+    <!-- total over and run end-->
+
+    <div class="batterBaller">
+        <div class="batsman">
+        <input type="text" class="b1" placeholder="Enter Batter Name." > <button class="btn1">Batter</button>
+        <input type="text" class="b2" placeholder="Enter Batter Name." > <button class="btn2">Batter</button>
+        <input type="text" class="b3" placeholder="Enter Batter Name." > <button class="btn3">Batter</button>
+        <input type="text" class="b4" placeholder="Enter Batter Name." > <button class="btn4">Batter</button>
+        <input type="text" class="b5" placeholder="Enter Batter Name." > <button class="btn5">Batter</button>
+        <input type="text" class="b6" placeholder="Enter Batter Name." > <button class="btn6">Batter</button>
+        <input type="text" class="b7" placeholder="Enter Batter Name." > <button class="btn7">Batter</button>
+        <input type="text" class="b8" placeholder="Enter Batter Name." > <button class="btn8">Batter</button>
+        <input type="text" class="b9" placeholder="Enter Batter Name." > <button class="btn9">Batter</button>
+        <input type="text" class="b10" placeholder="Enter Batter Name." > <button class="btn10">Batter</button>
+        <input type="text" class="b11" placeholder="Enter Batter Name." > <button class="btn11">Batter</button>
+        <h3 class="err2"></h3>
+    </div>
+        <div class="box">
+            <div class="left">
+                <!-- <nav class="font">
+                    <ul>
+                        <li>Batter <span class="bsq">|</span></li>
+                        <li>Run</li>
+                        <li>Ball</li>
+                    </ul>
+                </nav> -->
+                <ol class="blist">
+
+                    <li class="player1"><span class="p1"> </span> <span class="p1run">0</span> <span class="p1Ball">0</span> <button class="p1RunPlus">Run+</button>  <button class="p1BallPlus">Ball+</button>  <button class="p1RunMinus">Run-</button>   <button class="p1BallMinus">Ball-</button> <button class="p1Out">Out</button></li>
+                    <li class="player2"><span class="p2"> </span> <span class="p2run">0</span> <span class="p2Ball">0</span> <button class="p2RunPlus">Run+</button>  <button class="p2BallPlus">Ball+</button>  <button class="p2RunMinus">Run-</button>   <button class="p2BallMinus">Ball-</button> <button class="p2Out">Out</button></li>
+                    <li class="player3"><span class="p3"> </span> <span class="p3run">0</span> <span class="p3Ball">0</span> <button class="p3RunPlus">Run+</button>  <button class="p3BallPlus">Ball+</button>  <button class="p3RunMinus">Run-</button>   <button class="p3BallMinus">Ball-</button> <button class="p3Out">Out</button></li>
+                    <li class="player4"><span class="p4"> </span> <span class="p4run">0</span> <span class="p4Ball">0</span> <button class="p4RunPlus">Run+</button>  <button class="p4BallPlus">Ball+</button>  <button class="p4RunMinus">Run-</button>   <button class="p4BallMinus">Ball-</button> <button class="p4Out">Out</button></li>
+                    <li class="player5"><span class="p5"> </span> <span class="p5run">0</span> <span class="p5Ball">0</span> <button class="p5RunPlus">Run+</button>  <button class="p5BallPlus">Ball+</button>  <button class="p5RunMinus">Run-</button>   <button class="p5BallMinus">Ball-</button> <button class="p5Out">Out</button></li>
+                    <li class="player6"><span class="p6"> </span> <span class="p6run">0</span> <span class="p6Ball">0</span> <button class="p6RunPlus">Run+</button>  <button class="p6BallPlus">Ball+</button>  <button class="p6RunMinus">Run-</button>   <button class="p6BallMinus">Ball-</button> <button class="p6Out">Out</button></li>
+                    <li class="player7"><span class="p7"> </span> <span class="p7run">0</span> <span class="p7Ball">0</span> <button class="p7RunPlus">Run+</button>  <button class="p7BallPlus">Ball+</button>  <button class="p7RunMinus">Run-</button>   <button class="p7BallMinus">Ball-</button> <button class="p7Out">Out</button></li>
+                    <li class="player8"><span class="p8"> </span> <span class="p8run">0</span> <span class="p8Ball">0</span> <button class="p8RunPlus">Run+</button>  <button class="p8BallPlus">Ball+</button>  <button class="p8RunMinus">Run-</button>   <button class="p8BallMinus">Ball-</button> <button class="p8Out">Out</button></li>
+                    <li class="player9"><span class="p9"> </span> <span class="p9run">0</span> <span class="p9Ball">0</span> <button class="p9RunPlus">Run+</button>  <button class="p9BallPlus">Ball+</button>  <button class="p9RunMinus">Run-</button>   <button class="p9BallMinus">Ball-</button> <button class="p9Out">Out</button></li>
+                    <li class="player10"><span class="p10"> </span> <span class="p10run">0</span> <span class="p10Ball">0</span> <button class="p10RunPlus">Run+</button>  <button class="p10BallPlus">Ball+</button>  <button class="p10RunMinus">Run-</button>   <button class="p10BallMinus">Ball-</button> <button class="p10Out">Out</button></li>
+                    <li class="player11"><span class="p11"> </span> <span class="p11run">0</span> <span class="p11Ball">0</span> <button class="p11RunPlus">Run+</button>  <button class="p11BallPlus">Ball+</button>  <button class="p11RunMinus">Run-</button>   <button class="p11BallMinus">Ball-</button> <button class="p11Out">Out</button></li>
+                </ol>
+            </div>
+            <div class="right">
+                <!-- <div class="bwller">
+                    <input type="text" class="bl1" placeholder="Enter Bowler Name." > <button class="btnbl1">Bowler</button>
+                    <input type="text" class="bl2" placeholder="Enter Bowler Name." > <button class="btnbl2">Bowler</button>
+                    <input type="text" class="bl3" placeholder="Enter Bowler Name." > <button class="btnbl3">Bowler</button>
+                    <input type="text" class="bl4" placeholder="Enter Bowler Name." > <button class="btnbl4">Bowler</button>
+                    <input type="text" class="bl5" placeholder="Enter Bowler Name." > <button class="btnbl5">Bowler</button>
+                    <input type="text" class="bl6" placeholder="Enter Bowler Name." > <button class="btnbl6">Bowler</button>
+                    <input type="text" class="bl7" placeholder="Enter Bowler Name." > <button class="btnbl7">Bowler</button>
+                    <input type="text" class="bl8" placeholder="Enter Bowler Name." > <button class="btnbl8">Bowler</button>
+                    <input type="text" class="bl9" placeholder="Enter Bowler Name." > <button class="btnbl9">Bowler</button>
+                    <input type="text" class="bl10" placeholder="Enter Bowler Name." > <button class="btnbl10">Bowler</button>
+                    <input type="text" class="bl11" placeholder="Enter Bowler Name." > <button class="btnbl11">Bowler</button>
+                    <h3 class="err2"></h3>
+                </div>
+                <ol class="bwllist">
+                    <li class="bwler1"><span class="bwl1">Mustafizur</span> <span class="bwlOver1">0</span><span>.</span><span class="bwlBall1">0</span></li>
+                </ol> -->
+            </div>
+        </div>
+    </div>
+<script src="/js/script.js"></script>
+</body>
+</html>
